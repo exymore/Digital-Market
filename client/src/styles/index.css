@@ -1,0 +1,15 @@
+.hidden {
+    display: none !important;
+}
+
+body {
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code, body, button, input, select, textarea {
+    font-family: 'Montserrat', sans-serif !important;
+}

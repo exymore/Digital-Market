@@ -1,0 +1,47 @@
+@media (max-width: 1920px) {
+    .container {
+        max-width: 1096px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (max-width: 380px) {
+    .section.is-hero .title {
+        font-size: 2.5rem!important;
+    }
+    .section-header > .title {
+        font-size: 3rem!important;
+    }
+}
+
+@media (max-width: 768px) {
+    .holder {
+        border: 0;
+    }
+
+    .holder.columns.is-centered.is-vcentered {
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .manList {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .manList > span {
+        margin-bottom: 0.75rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .fa-2x {
+        font-size: 1.6rem;
+    }
+}
